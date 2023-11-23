@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h3>Beast Philanthropy</h3>
+    <img src="images/logo.png" width="70px" height="70px" />
+    <link rel="stylesheet"href="styles/style.css">
+    <title>Beast Philanthropy</title>
+    <!--Beast Philanthropy-->
+    <style>
+        form{
+        text-align: center;
+        display:flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image:url(images/forest.jpg);
+        font-size: 20px;
+        font-weight: bold;
+        background-size: cover;
+        color: bisque;
+        }
+        wrapper{
+           box-sizing: border-box ,solid;
+        }
+
+    </style>
+  </head>
+  <body>
+    <a href="index.html">back</a>
+    <form>
+           <div class="wrapper">
+      <h1>Create</h1>
+      <div class="inputbox">
+        <input type="text" placeholder="Username" required>
+        <i class="bx bxs-user"></i>
+      </div>
+      <div class="inputbox">
+        <input type="text"placeholder="Email"required>
+        <i class="bx bxs-user-lock-alt"></i>
+      </div>
+      <div class="inputbox">
+      <input id="Password"placeholder="Password" type="Password"required/>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox"></label>
+        <a href="#">Forgot password?</a>
+        <button type="submit"class="button">Create</button>
+      </div>
+      <br>
+    </form>
+  </body>
+</html>
